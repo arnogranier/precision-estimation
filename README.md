@@ -1,6 +1,6 @@
 # Precision estimation and second-order prediction errors in cortical circuits
 
-This repository includes code to reproduce the results of the paper "Precision estimation and second-order prediction errors in cortical circuits" ADD FULL CITE + link. 
+This repository includes code to reproduce the results of the paper [Precision estimation and second-order prediction errors in cortical circuits](https://arxiv.org/abs/2309.16046). 
 
 This is written in [Julia](https://julialang.org/) and make use of packages `Random.jl`, `Distributions.jl`, `Plots.jl`, `LinearAlgebra.jl`, `LaTeXStrings.jl`. 
 
