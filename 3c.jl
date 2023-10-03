@@ -5,7 +5,7 @@ using LinearAlgebra;
 using LaTeXStrings;
 
 Random.seed!(1061998);
-T = 5e3;
+T = 1e4;
 N = 100;
 Ms = [1, 10, 25];
 η = 0.005;
