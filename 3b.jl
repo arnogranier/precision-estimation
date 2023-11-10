@@ -52,7 +52,7 @@ append!(stores, [simulatemean(T, N, 100, 25*η, false, 0)]);
 plot(stores[1:3], linewidth=3, palette=:Dark2_4, size=(500, 400),
      label=[L"N_c=1"*" (random 50%)" L"N_c=10"*" (random 50%)" L"N_c=25"*" (random 50%)"],
      legend_font_pointsize=8, margin=3Plots.mm, thickness_scaling=4/3)
-plot!(stores[4], linewidth=3, ls=:dash, c=palette(:Dark2_5)[4],
+plot!(stores[4], linewidth=3, linestyle=:dash, c=palette(:Dark2_5)[4],
       label=L"N_c=100"*" (onehot)", legend_font_pointsize=8)
 ylabel!("average prediction error")
 xlabel!("time")
